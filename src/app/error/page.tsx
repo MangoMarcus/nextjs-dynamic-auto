@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const dynamic = 'auto';
+export const dynamic = 'error';
 
 export default function Page() {
   console.log("Rendering page using dynamic = 'error'");
